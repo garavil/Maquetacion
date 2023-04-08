@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agencia.css">
+    <title>Agencia de viajes</title>
+</head>
+<body>
+    <header class="head">AGENCIA DE VIAJES GAVIOTA</header>
+    <article class="texto">
+        <p class="parrafo">Te damos la bienvenida a Gaviota, una agencia de viajes especializada en organizar experiencias </p>
+        <p class="parrafo">para aquellas personas que viajan solas y que buscan tranquilidad y desconexión en lugares únicos.</p>
+        <p class="parrafo">Tomamos nota de tus ideas, nos adaptamos a tus preferencias y presupuesto y te diseñamos un viaje a medida</p>
+        <p class="parrafo">Descubre los rincones más especiales de toda España de la mano de Gaviota.</p>
+    </article>
+    <div class="galeria">
+        <img class="img" src="Anaga.jpeg" alt="">
+        <img class="img" src="pueblitos.jpeg" alt="">
+        <img class="img" src="Famara.jpeg" alt="">
+    </div>
+    <form action="" class="form">
+        <h1  class="h1">Solicita información</h1>
+        <div class="inputs">
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="text" id="origen" placeholder="Lugar de origen">
+            <input type="text" id="destino" placeholder="Lugar de destino"> 
+            <input type="number" id="noches" placeholder="Número de noches">
+            <input class="date" type="date" id="fecha" placeholder="Fecha de salida"> 
+            <button id="boton1" class="boton" onclick="datosPersonas()" type="reset">Solicitar</button>
+            <button class="boton" onclick="filtrarFav()" type="reset">Filtrar</button>
+        </div>
+    </form>
+    <aside class="formato">
+        <table class= "table" id="datos">
+            <!-- <tr>
+                <th>Nombre</th>
+                <th>Origen</th>
+                <th>Destino</th>
+                <th>Numero de noches</th>
+                <th>Fecha de salida</th>
+            </tr> -->
+        </table>
+    </aside>
+
+    <script src="agencia.js"></script>
+</body>
+</html>
