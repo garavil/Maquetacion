@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+aside{
+    height: 95%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    
+}
+aside div {
+    height: 85%;
+    width: 60%;
+    margin-right: 20 px;
+}
+aside div img{
+    height: 100%;
+    width: 100%;
+}
+section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+section nav{
+    display: flex;
+    width: 50%;
+    height: 60%;
+    border: 1px solid rgb(219, 219, 219);
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+section nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;  
+    
+}
+section nav div img{
+    height: 50%;
+    width: 50%;
+     
+    
+}
+section nav form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 30%;
+    width: 100%;
+    font:inherit;
+    
+}
+section nav form li{
+    list-style: none;
+    width: 70%;
+    height: 30%;;  
+}
+section nav form li input{
+    width:100%;
+    height: 100%;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+}
+section nav form div{
+    display:flex;
+    justify-content: flex-start;
+    gap:10px;
+    width: 70%;
+    
+}
+section nav form div p{
+    color: 1px solid black;
+    font-size:smaller;
+    
+}
+section nav form button{
+    background-color: rgb(0, 149, 246);
+    width:70%;
+    height: 30%;
+    color:white;
+    border-radius: 8px;    
+    border: 0;
+}
+section nav label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+section nav label img{
+    height:70%;
+    width: 90%;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 50%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.p{
+    color: black;
+   
+}
+.a{
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+}
+section h4{
+    width: 50%;
+    text-align: center;
+}
+section div{
+    width: 50%;
+    height: 10%;
+    display:flex;
+    justify-content: center; 
+      
+}
+section div img{
+    width: 70%;
+    height: 70%;;
+}
+footer{
+    
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    color:rgb(159, 159, 159);
+    text-decoration: none;
+    
+    
+}
+footer nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: -25px;;
+}
+
+footer nav a{
+    color:rgb(159, 159, 159);
+    text-decoration: none; 
+}
+footer nav a:hover{
+    border-bottom: 1px solid;  
+}
+footer aside{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin-top: 15px;
+
+}
+@media screen and(max-width: 2200px){
+    aside {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 855px){
+
+    aside {
+        display: none;
+    }
+    section{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    section{
+        width: 100%;
+        height: 80%;
+        align-items: center;
+    }
+    section nav{
+        border: none;
+    }
+
+}
+
+    
